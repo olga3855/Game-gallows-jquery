@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    font-family: 'segoe', sans-serif;
+    }
+    
+    .img-wrapper {
+    width: 40%;
+    margin: 50px auto 0;
+    }
+    
+    .img {
+    width: 100%;
+    }
+    
+    .word{
+    text-align: center;
+    letter-spacing: 10px;
+    }
+    
+    .word span {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2d2d2d;
+    }
+    
+    .user-input {
+    padding: 50px;
+    text-align: center;
+    }
+    
+    .user-letter {
+    width: 100px;
+    font-size: 40px;
+    border:none;
+    border-bottom: 2px solid coral;
+    text-align: center;
+    outline: none;
+    }
+    
+    .user-ok {
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background-color: coral;
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    outline: none;
+    }
+    
+    .user-ok:hover {
+    background: lightcoral;
+    cursor: pointer;
+    }
+    
+    .user-ok:active {
+    box-shadow: none;
+    }
